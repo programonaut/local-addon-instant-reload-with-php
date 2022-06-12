@@ -28,8 +28,7 @@ jobs:
         cache: 'npm'
     - run: npm i --global yarn
     - run: yarn install
-    - run: yarn build
-    - run: tar -czvf local-addon-instant-reload-with-php.tar.gz . > /dev/null
+    - run: tar -czf local-addon-instant-reload-with-php.tar.gz ./
     - name: Archive production artifacts 
       uses: actions/upload-artifact@v3
       with:

@@ -1,6 +1,6 @@
 {
-  "name": "@programonaut/local-addon-instant-reload",
-  "productName": "Instant Reload",
+  "name": "@flywheel/local-addon-instant-reload",
+  "productName": "Instant Reload with PHP",
   "version": "1.1.0",
   "author": "Local Team + Programonaut",
   "keywords": [
@@ -8,16 +8,16 @@
   ],
   "bgColor": "#51bb7b",
   "icon": "icon.svg",
-  "slug": "local-addon-instant-reload",
+  "slug": "local-addon-instant-reload-with-php",
   "description": "A Local addon that provides live browser reloading while developing WordPress sites.",
   "renderer": "lib/renderer.js",
   "main": "lib/main.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/programonaut/local-addon-instant-reload-with-php"
+    "url": "https://github.com/flywheel/local-addon-instant-reload"
   },
   "bugs": {
-    "url": "https://github.com/programonaut/local-addon-instant-reload-with-php/issues"
+    "url": "https://github.com/flywheel/local-addon-instant-reload/issues"
   },
   "license": "MIT",
   "scripts": {

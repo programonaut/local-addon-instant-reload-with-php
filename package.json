@@ -1,8 +1,8 @@
 {
-  "name": "@getflywheel/local-addon-instant-reload",
+  "name": "@programonaut/local-addon-instant-reload",
   "productName": "Instant Reload",
   "version": "1.1.0",
-  "author": "Local Team",
+  "author": "Local Team + Programonaut",
   "keywords": [
     "local-addon"
   ],
@@ -14,10 +14,10 @@
   "main": "lib/main.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/getflywheel/local-addon-instant-reload"
+    "url": "https://github.com/programonaut/local-addon-instant-reload-with-php"
   },
   "bugs": {
-    "url": "https://github.com/getflywheel/local-addon-instant-reload/issues"
+    "url": "https://github.com/programonaut/local-addon-instant-reload-with-php/issues"
   },
   "license": "MIT",
   "scripts": {

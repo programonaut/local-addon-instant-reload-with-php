@@ -26,6 +26,7 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
+    - run: mkdir archive
     - run: npm i --global yarn
     - run: yarn install
     - run: tar -czf archive/local-addon-instant-reload-with-php.tar.gz --exclude=./archive .

@@ -1,6 +1,6 @@
-# Local Instant Reload Add-on
+# Local Instant Reload Add-on (with PHP)
 
-A [Local](https://localwp.com/) add on that introduces live browser reloading while developing your WordPress site. This repository hosts the source code; if you simply want to use the add-on, download the latest version of local from [the release page](https://localwp.com/releases/) and install the add-on within the app.
+A [Local](https://localwp.com/) add on that introduces live browser reloading while developing your WordPress site. This repository hosts the source code. This fork can be used if you are developing a Tailwind CSS Website with Local WP.
 
 
 Currently this add-on performs live reloading through the use of a forked version of with [Browsersync](https://browsersync.io/).

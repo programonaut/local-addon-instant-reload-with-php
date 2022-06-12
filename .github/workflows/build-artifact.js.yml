@@ -16,7 +16,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [12.x, 14.x, 16.x]
+        node-version: [16.x]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
@@ -29,3 +29,9 @@ jobs:
     - run: npm i --global yarn
     - run: yarn install
     - run: yarn build
+    - run: tar -czvf local-addon-instant-reload-with-php.tar.gz .
+    - name: Archive production artifacts
+      uses: actions/upload-artifact@v3
+      with:
+        name: local addon
+        path: local-addon-instant-reload-with-php.tar.gz
